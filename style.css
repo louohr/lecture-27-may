@@ -1,14 +1,14 @@
 .container {
     background-color: teal;
-    width: 250px;
-    height: 250px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 1rem;
+    gap: 1rem;
 }
+
 .flex-item {
     background-color: hotpink;
-    height: 30px;
-    width: 30px;
+    padding: 1rem;
+    margin: 0.5 rem;
 }
